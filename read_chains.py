@@ -42,11 +42,11 @@ def load_ptmcmc_chains(dirpath, ntemps=5, burn_in=int(250), thin=5):
     # 1. Load metadata
     # ------------------------------------------------------------------ #
     injected_dict = None
-    if os.path.exists(f'{dirpath}/injected_params.json'):
-        with open(f'{dirpath}/injected_params.json', 'r') as f:
+    if os.path.exists(f'injected_params.json'):
+        with open(f'injected_params.json', 'r') as f:
             injected_dict = json.load(f)
 
-    with open(f'{dirpath}/prior_dict.json', 'r') as f:
+    with open(f'prior_dict.json', 'r') as f:
         priors_all = json.load(f)
 
     # ------------------------------------------------------------------ #
