@@ -5,8 +5,6 @@ import numpy as np
 import jax
 import jax.numpy as jnp
 import interpax
-from . import matrix
-from . import const
 from jax.experimental.ode import odeint
 import diffrax
 jax.config.update("jax_enable_x64", True)
