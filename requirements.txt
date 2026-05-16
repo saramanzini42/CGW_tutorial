@@ -7,7 +7,6 @@ scipy
 matplotlib
 corner
 astropy
-eryn
+interpax
 h5py
-chainconsumer
 git+https://github.com/nanograv/discovery.git
