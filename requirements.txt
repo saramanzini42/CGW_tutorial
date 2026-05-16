@@ -11,4 +11,3 @@ eryn
 h5py
 chainconsumer
 git+https://github.com/nanograv/discovery.git
-git+https://gitlab.in2p3.fr/lisa-apc/jexplore.git
